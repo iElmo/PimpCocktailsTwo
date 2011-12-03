@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		374E090A14755DC000F254FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374E090914755DC000F254FD /* UIKit.framework */; };
+		374E090C14755DC000F254FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374E090B14755DC000F254FD /* Foundation.framework */; };
+		374E090E14755DC000F254FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374E090D14755DC000F254FD /* CoreGraphics.framework */; };
+		374E091414755DC000F254FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 374E091214755DC000F254FD /* InfoPlist.strings */; };
+		374E091714755DC000F254FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 374E091614755DC000F254FD /* main.m */; };
+		374E091A14755DC000F254FD /* PimpCocktailsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 374E091914755DC000F254FD /* PimpCocktailsAppDelegate.m */; };
+		374E091D14755DC000F254FD /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 374E091B14755DC000F254FD /* MainWindow.xib */; };
+		374E092A14755DD000F254FD /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 374E092414755DD000F254FD /* TableViewController.m */; };
+		374E092B14755DD000F254FD /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 374E092614755DD000F254FD /* Recipe.m */; };
+		374E092C14755DD000F254FD /* DisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 374E092814755DD000F254FD /* DisplayController.m */; };
+		374E092D14755DD000F254FD /* DisplayController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 374E092914755DD000F254FD /* DisplayController.xib */; };
+		374E093214755E7700F254FD /* mojito.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 374E092F14755E7700F254FD /* mojito.jpg */; };
+		374E093314755E7700F254FD /* pina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 374E093014755E7700F254FD /* pina.jpg */; };
+		374E093414755E7700F254FD /* sex_on_the_beach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 374E093114755E7700F254FD /* sex_on_the_beach.jpg */; };
+		37D5250214769FAA0075ED4B /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D5250114769FAA0075ED4B /* Common.m */; };
+		37D525051476A36C0075ED4B /* CustomCellBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D525041476A36C0075ED4B /* CustomCellBackground.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		374E090514755DC000F254FD /* PimpCocktails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PimpCocktails.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		374E090914755DC000F254FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		374E090B14755DC000F254FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		374E090D14755DC000F254FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		374E091114755DC000F254FD /* PimpCocktails-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PimpCocktails-Info.plist"; sourceTree = "<group>"; };
+		374E091314755DC000F254FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		374E091514755DC000F254FD /* PimpCocktails-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PimpCocktails-Prefix.pch"; sourceTree = "<group>"; };
+		374E091614755DC000F254FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		374E091814755DC000F254FD /* PimpCocktailsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PimpCocktailsAppDelegate.h; sourceTree = "<group>"; };
+		374E091914755DC000F254FD /* PimpCocktailsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PimpCocktailsAppDelegate.m; sourceTree = "<group>"; };
+		374E091C14755DC000F254FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		374E092314755DD000F254FD /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		374E092414755DD000F254FD /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		374E092514755DD000F254FD /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
+		374E092614755DD000F254FD /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
+		374E092714755DD000F254FD /* DisplayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayController.h; sourceTree = "<group>"; };
+		374E092814755DD000F254FD /* DisplayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayController.m; sourceTree = "<group>"; };
+		374E092914755DD000F254FD /* DisplayController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisplayController.xib; sourceTree = "<group>"; };
+		374E092F14755E7700F254FD /* mojito.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mojito.jpg; sourceTree = "<group>"; };
+		374E093014755E7700F254FD /* pina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pina.jpg; sourceTree = "<group>"; };
+		374E093114755E7700F254FD /* sex_on_the_beach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sex_on_the_beach.jpg; sourceTree = "<group>"; };
+		37D5250014769FAA0075ED4B /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		37D5250114769FAA0075ED4B /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		37D525031476A36C0075ED4B /* CustomCellBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellBackground.h; sourceTree = "<group>"; };
+		37D525041476A36C0075ED4B /* CustomCellBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellBackground.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		374E090214755DC000F254FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				374E090A14755DC000F254FD /* UIKit.framework in Frameworks */,
+				374E090C14755DC000F254FD /* Foundation.framework in Frameworks */,
+				374E090E14755DC000F254FD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		374E08FA14755DC000F254FD = {
+			isa = PBXGroup;
+			children = (
+				374E090F14755DC000F254FD /* PimpCocktails */,
+				374E090814755DC000F254FD /* Frameworks */,
+				374E090614755DC000F254FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		374E090614755DC000F254FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				374E090514755DC000F254FD /* PimpCocktails.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		374E090814755DC000F254FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				374E090914755DC000F254FD /* UIKit.framework */,
+				374E090B14755DC000F254FD /* Foundation.framework */,
+				374E090D14755DC000F254FD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		374E090F14755DC000F254FD /* PimpCocktails */ = {
+			isa = PBXGroup;
+			children = (
+				374E091814755DC000F254FD /* PimpCocktailsAppDelegate.h */,
+				374E091914755DC000F254FD /* PimpCocktailsAppDelegate.m */,
+				374E092314755DD000F254FD /* TableViewController.h */,
+				374E092414755DD000F254FD /* TableViewController.m */,
+				374E092514755DD000F254FD /* Recipe.h */,
+				374E092614755DD000F254FD /* Recipe.m */,
+				374E092714755DD000F254FD /* DisplayController.h */,
+				374E092814755DD000F254FD /* DisplayController.m */,
+				37D5250014769FAA0075ED4B /* Common.h */,
+				37D5250114769FAA0075ED4B /* Common.m */,
+				37D525031476A36C0075ED4B /* CustomCellBackground.h */,
+				37D525041476A36C0075ED4B /* CustomCellBackground.m */,
+				374E092914755DD000F254FD /* DisplayController.xib */,
+				374E091B14755DC000F254FD /* MainWindow.xib */,
+				374E091014755DC000F254FD /* Supporting Files */,
+			);
+			path = PimpCocktails;
+			sourceTree = "<group>";
+		};
+		374E091014755DC000F254FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				374E092E14755E6100F254FD /* Images */,
+				374E091114755DC000F254FD /* PimpCocktails-Info.plist */,
+				374E091214755DC000F254FD /* InfoPlist.strings */,
+				374E091514755DC000F254FD /* PimpCocktails-Prefix.pch */,
+				374E091614755DC000F254FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		374E092E14755E6100F254FD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				374E092F14755E7700F254FD /* mojito.jpg */,
+				374E093014755E7700F254FD /* pina.jpg */,
+				374E093114755E7700F254FD /* sex_on_the_beach.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		374E090414755DC000F254FD /* PimpCocktails */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 374E092014755DC000F254FD /* Build configuration list for PBXNativeTarget "PimpCocktails" */;
+			buildPhases = (
+				374E090114755DC000F254FD /* Sources */,
+				374E090214755DC000F254FD /* Frameworks */,
+				374E090314755DC000F254FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PimpCocktails;
+			productName = PimpCocktails;
+			productReference = 374E090514755DC000F254FD /* PimpCocktails.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		374E08FC14755DC000F254FD /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 374E08FF14755DC000F254FD /* Build configuration list for PBXProject "PimpCocktails" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 374E08FA14755DC000F254FD;
+			productRefGroup = 374E090614755DC000F254FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				374E090414755DC000F254FD /* PimpCocktails */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		374E090314755DC000F254FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				374E091414755DC000F254FD /* InfoPlist.strings in Resources */,
+				374E091D14755DC000F254FD /* MainWindow.xib in Resources */,
+				374E092D14755DD000F254FD /* DisplayController.xib in Resources */,
+				374E093214755E7700F254FD /* mojito.jpg in Resources */,
+				374E093314755E7700F254FD /* pina.jpg in Resources */,
+				374E093414755E7700F254FD /* sex_on_the_beach.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		374E090114755DC000F254FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				374E091714755DC000F254FD /* main.m in Sources */,
+				374E091A14755DC000F254FD /* PimpCocktailsAppDelegate.m in Sources */,
+				374E092A14755DD000F254FD /* TableViewController.m in Sources */,
+				374E092B14755DD000F254FD /* Recipe.m in Sources */,
+				374E092C14755DD000F254FD /* DisplayController.m in Sources */,
+				37D5250214769FAA0075ED4B /* Common.m in Sources */,
+				37D525051476A36C0075ED4B /* CustomCellBackground.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		374E091214755DC000F254FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				374E091314755DC000F254FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		374E091B14755DC000F254FD /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				374E091C14755DC000F254FD /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		374E091E14755DC000F254FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		374E091F14755DC000F254FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		374E092114755DC000F254FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PimpCocktails/PimpCocktails-Prefix.pch";
+				INFOPLIST_FILE = "PimpCocktails/PimpCocktails-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		374E092214755DC000F254FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PimpCocktails/PimpCocktails-Prefix.pch";
+				INFOPLIST_FILE = "PimpCocktails/PimpCocktails-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		374E08FF14755DC000F254FD /* Build configuration list for PBXProject "PimpCocktails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				374E091E14755DC000F254FD /* Debug */,
+				374E091F14755DC000F254FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		374E092014755DC000F254FD /* Build configuration list for PBXNativeTarget "PimpCocktails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				374E092114755DC000F254FD /* Debug */,
+				374E092214755DC000F254FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 374E08FC14755DC000F254FD /* Project object */;
+}
